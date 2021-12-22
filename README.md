@@ -1,2 +1,5 @@
 # Zoir-Site
-Zoir's Website
+Worked on by:
+  * JonathanPiroca
+  * DanielPiroca
+  * PedroPiroca
