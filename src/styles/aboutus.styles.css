@@ -1,0 +1,40 @@
+#aboutus-body {
+    background-color: #444343;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#main-container {
+    background-color: red;
+    width: 66%;
+    height: 80%;
+}
+
+#meet-zoir-container {
+    width: 100%;
+    height: 106px;
+    top: 0px;
+    padding: 0;
+    margin: 0;
+    background-color: green;
+}
+
+#meet-zoir-text {
+    width: 326px;
+    height: 85px;
+    left: 240px;
+    top: 173px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 62px;
+    line-height: 85px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}

@@ -1,9 +1,10 @@
 import "./styles/header.styles.css";
 import "./styles/footer.styles.css";
+import { AboutUsPage } from "./pages/AboutUs";
 
 function App() {
   return (
-    <div id="body">
+    <div className="body">
       <div id="header-body">
         <div id="header-items">
           <h1 id="title-text">ZOIR-SITE</h1>
@@ -15,7 +16,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div id="TEST-SEPARATOR"></div>
+      <AboutUsPage />
       <div id="footer-body">
         <div id="footer-inner-body1">
           <h1 id="footer-contact-us-text">CONTACT US</h1>
