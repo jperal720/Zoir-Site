@@ -27,9 +27,8 @@
 
 #header-items {
   position: relative;
-  width: 66%;
+  width: 66.666%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.24);
   align-items: center;
   display: flex;
   justify-content: space-between;
@@ -44,10 +43,10 @@
 #header-items-right {
   width: 49%;
   height: 100%;
-  background-color: orange;
   flex-direction: row;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 #title-text {
@@ -100,90 +99,3 @@
   color: #FFFFFF;
 }
 
-#footer-body {
-  width: 100%;
-  height: 300px;
-  left: 0px;
-  bottom: 0px;
-  background: #323232;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-#footer-inner-body {
-  width: 66%;
-  height: 75%;
-  top: 25px;
-  display: flex;
-  flex-direction: column;
-}
-
-#footer-contact-us-text {
-  width: 191px;
-  top: 0px;
-  font-family: "Nunito";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 30px;
-  text-align: center;
-  color: #FFFFFF;
-  padding: 0;
-  margin: 0;
-  
-}
-
-#footer-contact-info {
-  width: 100%;
-  height: 63%;
-  display: flex;
-  align-items: center;
-  background-color: red;
-}
-
-.footer-division {
-  padding: 0;
-  margin: 0;
-  width: 50%;
-  height: 100%;
-  background-color: orange;
-  display: flex;
-  flex-direction: column;
-}
-
-.footer-info {
-  font-family: "Nunito";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12.8px;
-  text-align: left;
-  color: #FFFFFF;
-}
-
-#footer-right-side-links {
-  background-color: green;
-  justify-content: right;
-
-}
-
-#footer-home {
-  font-family: "Nunito";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12.8px;
-  text-align: right; 
-  
-  color: #FFFFFF;
-}
-
-#footer-located-in-vancouver {
-  display: flex;
-  font-family: "Nunito";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 12.8px;
-  text-align: left;
-  bottom: 0;
-  color: #FFFFFF;
-}
