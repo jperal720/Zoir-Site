@@ -1,4 +1,5 @@
-import "./styles.css";
+import "./styles/header.styles.css";
+import "./styles/footer.styles.css";
 
 function App() {
   return (
@@ -16,18 +17,18 @@ function App() {
       </div>
       <div id="TEST-SEPARATOR"></div>
       <div id="footer-body">
-        <div id="footer-inner-body">
+        <div id="footer-inner-body1">
           <h1 id="footer-contact-us-text">CONTACT US</h1>
-          <div id="footer-contact-info">
-            <div class="footer-division">
-              <h1 class="footer-info">zoir@site.ca</h1>
-              <h1 class="footer-info">555-555-5555</h1>
+          <div id="footer-inner-body2">
+            <div id="footer-inner-body2-left">
+              <h1 id="footer-email">zoir@site.ca</h1>
+              <h1 id="footer-phone">555-555-5555</h1>
               <h1 id="footer-located-in-vancouver">Located in Vancouver</h1>
             </div>
-            <div class="footer-division">
-              <div id="footer-right-side-links">
-                <h1 id="footer-home">HOME</h1>
-              </div>
+            <div id="footer-inner-body2-right">
+              <h1 id="footer-home-button">HOME</h1>
+              <h1 id="footer-about-us-button">ABOUT US</h1>
+              <h1 id="footer-newsletter-button">NEWSLETTER</h1>
             </div>
           </div>
         </div>
