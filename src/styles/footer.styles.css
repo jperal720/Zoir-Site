@@ -3,31 +3,28 @@
     height: 300px;
     left: 0px;
     bottom: 0px;
-    background: #323232;
+    background-color: #323232;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
-  }
-  
-  #footer-inner-body1 {
-    position: absolute;
+}
+
+#footer-inner-body1 {
+    position: relative;
     width: 66.666%;
     height: 183px;
-    bottom: 7.7%;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  #footer-inner-body2 {
+    top: 38px;
+}
+
+#footer-inner-body2 {
     width: 100%;
     height: 142px;
     bottom: 79px;
     display: flex;
     flex-direction: column;
-  }
-  
-  #footer-contact-us-text {
+}
+
+#footer-contact-us-text {
     width: 191px;
     height: 41px;
     left: 240px;
@@ -40,17 +37,17 @@
     color: #FFFFFF;
     padding: 0;
     margin: 0;
-  }
-  
-  #footer-inner-body2-left {
+}
+
+#footer-inner-body2-left {
     position: absolute;
     width: 127px;
     height: 108px;
     left: 0px;
     bottom: 20px;
-  }
-  
-  #footer-email {
+}
+
+#footer-email {
     position: absolute;
     font-family: "Nunito";
     font-style: normal;
@@ -60,9 +57,9 @@
     top: 0;
     margin: 0;
     color: #FFFFFF;
-  }
-  
-  #footer-phone {
+}
+
+#footer-phone {
     position: absolute;
     font-family: "Nunito";
     font-style: normal;
@@ -72,9 +69,9 @@
     bottom: 61px;
     margin: 0;
     color: #FFFFFF;
-  }
-  
-  #footer-located-in-vancouver {
+}
+
+#footer-located-in-vancouver {
     position: absolute;
     font-family: "Nunito";
     font-style: normal;
@@ -84,55 +81,30 @@
     bottom: 0px;
     margin: 0;
     color: #FFFFFF;
-  }
-  
-  #footer-inner-body2-right {
+}
+
+#footer-inner-body2-right {
     position: absolute;
     width: 85px;
     height: 85px;
     right: 0px;
     bottom: 39px;
-  }
-  
-  #footer-home-button {
-    position: absolute;
-    width: 85px;
-    height: 17px;
+}
+
+#footer-home-button {
     top: 0px;
-    font-family: "Nunito";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12.8px;
-    line-height: 17px;
-    text-align: center;
-    text-decoration-line: underline;
-    margin: 0;
-    color: #FFFFFF;
-    text-align: left;
-  }
-  
-  #footer-about-us-button {
-    position: absolute;
-    width: 85px;
-    height: 17px;
+}
+
+#footer-about-us-button {
     top: 34px;
-    font-family: "Nunito";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12.8px;
-    line-height: 17px;
-    text-align: center;
-    text-decoration-line: underline;
-    margin: 0;
-    color: #FFFFFF;
-    text-align: left;
-  }
-  
-  #footer-newsletter-button {
-    position: absolute;
-    width: 85px;
-    height: 17px;
+}
+
+#footer-newsletter-button {
     bottom: 0px;
+}
+
+.footer-buttons {
+    position: absolute;
     font-family: "Nunito";
     font-style: normal;
     font-weight: normal;
@@ -143,4 +115,10 @@
     margin: 0;
     color: #FFFFFF;
     text-align: left;
-  }
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.footer-buttons:hover {
+    color: #ffffffa6;
+}
