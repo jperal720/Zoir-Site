@@ -1,22 +1,60 @@
 import "./styles/header.styles.css";
 import "./styles/footer.styles.css";
 import { AboutUsPage } from "./pages/AboutUs";
+import { HomePage } from "./pages/Home";
+import { useState } from "react";
+import * as Scroll from "react-scroll";
 
 function App() {
+  const [page, setPage] = useState(<AboutUsPage />);
+  let scroll = Scroll.animateScroll;
+
   return (
     <div className="body">
       <div id="header-body">
         <div id="header-items">
           <h1 id="title-text">ZOIR-SITE</h1>
           <div id="header-items-right">
-            <h1 className="header-button">HOME</h1>
-            <h1 className="header-button">PROJECTS</h1>
-            <h1 className="header-button">ABOUT US</h1>
-            <h1 className="header-button">CONTACT</h1>
+            <h1
+              className="header-button"
+              onClick={() => {
+                setPage(<HomePage />);
+                scroll.scrollToTop({ duration: 400 });
+              }}
+            >
+              HOME
+            </h1>
+            <h1
+              className="header-button"
+              onClick={() => {
+                setPage(<HomePage />);
+                scroll.scrollToTop({ duration: 400 });
+              }}
+            >
+              PROJECTS
+            </h1>
+            <h1
+              className="header-button"
+              onClick={() => {
+                setPage(<AboutUsPage />);
+                scroll.scrollToTop({ duration: 400 });
+              }}
+            >
+              ABOUT US
+            </h1>
+            <h1
+              className="header-button"
+              onClick={() => {
+                setPage(<HomePage />);
+                scroll.scrollToTop({ duration: 400 });
+              }}
+            >
+              CONTACT
+            </h1>
           </div>
         </div>
       </div>
-      <AboutUsPage />
+      {page}
       <div id="footer-body">
         <div id="footer-inner-body1">
           <h1 id="footer-contact-us-text">CONTACT US</h1>
@@ -30,14 +68,31 @@ function App() {
               <h1
                 id="footer-home-button"
                 className="footer-buttons"
-                onClick={console.log("Clicked home")}
+                onClick={() => {
+                  setPage(<HomePage />);
+                  scroll.scrollToTop({ duration: 400 });
+                }}
               >
                 HOME
               </h1>
-              <h1 id="footer-about-us-button" className="footer-buttons">
+              <h1
+                id="footer-about-us-button"
+                className="footer-buttons"
+                onClick={() => {
+                  setPage(<AboutUsPage />);
+                  scroll.scrollToTop({ duration: 400 });
+                }}
+              >
                 ABOUT US
               </h1>
-              <h1 id="footer-newsletter-button" className="footer-buttons">
+              <h1
+                id="footer-newsletter-button"
+                className="footer-buttons"
+                onClick={() => {
+                  setPage(<HomePage />);
+                  scroll.scrollToTop({ duration: 400 });
+                }}
+              >
                 NEWSLETTER
               </h1>
             </div>
