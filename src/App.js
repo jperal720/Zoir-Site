@@ -6,7 +6,8 @@ import { useState } from "react";
 import * as Scroll from "react-scroll";
 
 function App() {
-  const [page, setPage] = useState(<AboutUsPage />);
+  const [page, setPage] = useState(<HomePage />);
+
   let scroll = Scroll.animateScroll;
 
   return (
@@ -22,7 +23,7 @@ function App() {
                 scroll.scrollToTop({ duration: 400 });
               }}
             >
-              HOME
+              Home
             </h1>
             <h1
               className="header-button"
@@ -31,7 +32,7 @@ function App() {
                 scroll.scrollToTop({ duration: 400 });
               }}
             >
-              PROJECTS
+              Projects
             </h1>
             <h1
               className="header-button"
@@ -40,7 +41,7 @@ function App() {
                 scroll.scrollToTop({ duration: 400 });
               }}
             >
-              ABOUT US
+              About Us
             </h1>
             <h1
               className="header-button"
@@ -49,7 +50,7 @@ function App() {
                 scroll.scrollToTop({ duration: 400 });
               }}
             >
-              CONTACT
+              Contact
             </h1>
           </div>
         </div>
@@ -73,7 +74,7 @@ function App() {
                   scroll.scrollToTop({ duration: 400 });
                 }}
               >
-                HOME
+                Home
               </h1>
               <h1
                 id="footer-about-us-button"
@@ -83,7 +84,7 @@ function App() {
                   scroll.scrollToTop({ duration: 400 });
                 }}
               >
-                ABOUT US
+                About Us
               </h1>
               <h1
                 id="footer-newsletter-button"
@@ -93,7 +94,7 @@ function App() {
                   scroll.scrollToTop({ duration: 400 });
                 }}
               >
-                NEWSLETTER
+                Contact
               </h1>
             </div>
           </div>

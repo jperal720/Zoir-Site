@@ -1,0 +1,74 @@
+#contact-form-body {
+    width: 678px;
+    height: 614px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#contact-us-text {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 43px;
+    color: #07090D;
+    text-align: center;
+}
+
+#contact-form-inner-body {
+    height: 484px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#name-and-email-fields {
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+}
+
+.textfield {
+    background-color: #161B21;
+    color: white;
+    height: 60px;
+    width: 328px;
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    border: 2px solid #ffffff;
+    padding-left: 18px;
+    box-sizing: border-box;
+}
+
+#email_body {
+    width: 100%;
+    height: 300px;
+    resize: none;
+}
+
+#submit_button {
+    background-color: #161B21;
+    color: white;
+    width: 141.41px;
+    height: 58px;
+    transition: 0.2s;
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    border: 1px solid #E6E6E6;
+    box-sizing: border-box;
+}
+
+#submit_button:hover {
+    background-color: orange;
+    color: #161B21;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.603);
+}

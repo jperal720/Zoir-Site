@@ -8,14 +8,40 @@
   left: 0;
 }
 
+#book-us-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  height: 50px;
+  width: 150px;
+  background-color: blue;
+  justify-content: center;
+  align-items: center;
+}
+
+#book-us-text {
+  position: relative;
+  top: 0;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
 #TEST-SEPARATOR {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  height: 1700px;
+  height: 1000px;
   background-color: rgb(211, 211, 211);
 }
 
 #header-body {
-  background-color: #323232;
+  background-color: #F4A950;
   position: fixed;
   width: 100%;
   height: 59.6px;
@@ -23,6 +49,7 @@
   top: 0px;
   display: flex;
   justify-content: center;
+  z-index: 999;
 }
 
 #header-items {
